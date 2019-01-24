@@ -54,6 +54,9 @@ class DAO {
         $busca = $con->query($sql);
         echo '
         <div class="container">
+        <div class="titulo">
+        <h1>CLIENTES</h1>
+    </div>
         <table class="table table-dark">
            <tr>
            <td>Cliente</td>

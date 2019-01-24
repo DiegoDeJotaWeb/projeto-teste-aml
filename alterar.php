@@ -8,9 +8,9 @@ $codigo = $_GET['cod'];
 
 
     <div class="titulo">
-        <h1>CADASTRO DE CLIENTE</h1>
+        <h1>ALTERAR DE CLIENTE</h1>
     </div>
-    <form class="form-inline my-4" action="_alterar.php" method="POST">
+    <form class="form-inline my-4 emp" action="_alterar.php" method="POST">
 
         <div class="input-group mb-2  col-md-6">
             <input type="text" class="form-control mb-2 mr-sm-2" name="nome" placeholder="Nome do cliente">
