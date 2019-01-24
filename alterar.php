@@ -8,7 +8,7 @@ $codigo = $_GET['cod'];
 
 
     <div class="titulo">
-        <h1>ALTERAR DE CLIENTE</h1>
+        <h1>ALTERAR CLIENTE</h1>
     </div>
     <form class="form-inline my-4 emp" action="_alterar.php" method="POST">
 
