@@ -45,15 +45,17 @@ class DAO {
 	}
     
     public static function mostrarCliente() {
-		
+		$cliente = new Cliente();
         $con = PdoConexao::getInstancia();
         
         
 		$sql = "select * from cliente";
         
         $busca = $con->query($sql);
+       
+    
         echo '
-        <div class="container">
+        <div class="container emp">
         <div class="titulo">
         <h1>CLIENTES</h1>
     </div>
@@ -66,7 +68,7 @@ class DAO {
            <td>Apagar</td>
            <td>Alterar</td>
            </tr>';
-        
+      
       while($row = $busca->fetch(PDO::FETCH_ASSOC)) {
          echo '
          

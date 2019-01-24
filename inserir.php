@@ -18,7 +18,7 @@ $cliente->setDataCadastro($_POST['dataCadastro']);
     
 DAO::gravarCliente($cliente);    
     
-//    echo "cadastrado com sucesso!";
+   echo "<p id='sucesso'>cadastrado com sucesso!</p>";
 }
 ?>
 

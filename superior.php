@@ -24,7 +24,7 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbartoggles_" aria-controls="navbartoggles_" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="index.php">Empresa</a>
+  <a class="navbar-brand log" href="index.php"><img src="img/logo.png" alt=""></a>
 
   <div class="collapse navbar-collapse" id="navbartoggles_">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">

@@ -19,8 +19,8 @@ class PdoConexao {
         if(!isset(self::$instancia)) {
              try {
                  $dsn = "mysql:host=localhost;dbname=aml_testePHP_2018";
-                 $usuario = "aml_devteste";
-                 $senha = "aml_devtest2018"; 
+                 $usuario = "root";
+                 $senha = ""; 
                  
                
                  self::$instancia = new PDO( $dsn, $usuario, $senha );
