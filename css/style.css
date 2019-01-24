@@ -1,0 +1,23 @@
+footer{
+    background: #666;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.titulo{
+    margin: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+fieldset{
+    
+    border: 1px solid #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn{
+    margin: 0 auto;
+}
